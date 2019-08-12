@@ -6,7 +6,7 @@ class Config:
     '''
     SQLALCHEMY_TRACK_MODIFICATIONS= True
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mark:aguero10@localhost/blogapp'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://limooh:123@localhost/blogapp'
 
     # email configs
     MAIL_SERVER = 'smtp.googlemail.com'

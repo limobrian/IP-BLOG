@@ -7,7 +7,7 @@ from flask_login import login_required,current_user
 from ..email import mail_message
 import datetime
 import json 
-import requests
+# import requests
 
 
 @main.route('/')
