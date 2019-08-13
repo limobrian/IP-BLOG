@@ -23,7 +23,7 @@ def index():
     random=urllib.request.urlopen('http://quotes.stormconsultancy.co.uk/random.json').read()
     get_source_response = json.loads(random)
 
-    return render_template('index.html',index=index, title=title, post=post, random=random)
+    return render_template('index.html',index=index, title=title, post=post, random=get_source_response)
 
 @main.route('/user/<uname>')
 def profile(uname):
