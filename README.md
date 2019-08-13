@@ -35,7 +35,7 @@ no bugs
 
         ` $ git clone https://github.com/limobrian/IP-BLOG.git
 
-        ` $ cd new-highlight
+        ` $ cd ip-blog
 
 ### Creating the virtual environment
 
