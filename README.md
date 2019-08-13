@@ -52,6 +52,24 @@ no bugs
         `$ python3.6 -m pip install Flask-Bootstrap
 
         `$ python3.6 -m pip install Flask-Script
+        
+         `$  pip install flask-wtf 
+         
+         `$  pip install flask-SQLAlchemy 
+         
+         `$ pip install psycopg2 
+         
+         `$ pip install flask-migrate 
+         
+         `$ pip install flask-login
+         
+         `$ pip install flask-uploads
+         
+         `$ pip install flask-mail
+         
+         `$ pip install flask-simplemde markdown2
+         
+         `$pip install gunicorn
 
 ## Setting up the API Key
 
